@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/7/18 22:15:04。
+     1>项目“C:\Users\shens_000\Documents\Visual Studio 2015\Projects\dcm1\dcm1\dcm1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\DCMTK\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\dcm1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dcm1.cpp
+         dcm1.cpp
+     1>c:\program files (x86)\dcmtk\include\dcmtk\config\osconfig.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\dcmtk\include\dcmtk\ofstd\offile.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shens_000\Documents\Visual Studio 2015\Projects\dcm1\Debug\dcm1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\DCMTK\lib" netapi32.lib wsock32.lib ofstd.lib oflog.lib dcmimgle.lib ijg8.lib ijg12.lib ijg16.lib dcmdata.lib dcmimage.lib dcmjpeg.lib dcmnet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\shens_000\Documents\Visual Studio 2015\Projects\dcm1\Debug\dcm1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shens_000\Documents\Visual Studio 2015\Projects\dcm1\Debug\dcm1.lib" /MACHINE:X86 Debug\dcm1.obj
+         Debug\stdafx.obj
+         dcm1.vcxproj -> C:\Users\shens_000\Documents\Visual Studio 2015\Projects\dcm1\Debug\dcm1.exe
+     1>已完成生成项目“C:\Users\shens_000\Documents\Visual Studio 2015\Projects\dcm1\dcm1\dcm1.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:07.74
